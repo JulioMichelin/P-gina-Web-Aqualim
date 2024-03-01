@@ -1,0 +1,43 @@
+#tercerColumna {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tipo_fecha {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+}
+
+#columnaLogo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+label {
+    font-size: large;
+}
+
+#formulario {
+    background: rgb(212, 241, 242);
+    background: linear-gradient(90deg, rgba(212, 241, 242, 0.2945553221288515) 10%, rgba(255, 252, 183, 1) 76%);
+    border-color: rgb(238, 14, 14);
+    margin: 5px;
+    border: solid 3px rgba(70, 68, 68, 0.938);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.navbar {
+    font-family: 'Young Serif', serif;
+}
+
+.accordion-body {
+    text-align: left;
+}

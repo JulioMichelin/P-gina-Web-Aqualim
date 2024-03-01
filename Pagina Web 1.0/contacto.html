@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/jpg" href="imagenes/favicon-16x16.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>AQUALIM - LA PAZ</title>
+</head>
+
+<body>
+    <!-- MENU SUPERIOR-->
+    <div class="container-sm" style="background-color: rgb(139, 202, 245); ">
+        <div id="menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">AQUALIM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Quimicos</a></li>
+                                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Preguntas Frecuentes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- LOGO EMPRESA y FECHA-->
+        <div class="row">
+            <div class="col-sm-3" id="columnaLogo">
+                <img src="imagenes/AQUALIM (Logo).jpg" height="160">
+                <span id="fecha_de_hoy" class="tipo_fecha"></span>
+                <br>
+                <li><a href="https://www.facebook.com/profile.php?id=61550517136860&mibextid=ZbWKwL"
+                        target="_blank"><img src="imagenes/face.png" width="50" /></a></li>
+
+                <li><a href="https://www.instagram.com/aqualim_la_paz" target="_blank"><img src="imagenes/instagram.png"
+                            width="50" /></a></li>
+            </div>
+            <!-- CAROUSEL-->
+            <div class="col-sm-9" max-height: 500px;">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/piscinas-limpieza-mantenimiento.jpg" height="400px" class="d-block w-100"
+                                alt="Mantenimiento Piscinas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/sacahoja.jpg" height="400px" class="d-block w-100"
+                                alt="Mantenimiento Pileta">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/piscinas.jpg" height="400px" class="d-block w-100" alt="Piscina">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+        <!-- FORMULARIO -->
+        <div class="col-sm-6" id="formulario">
+            <h3>CONTACTENOS</h3>
+            <div class="p-3">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Juan Topoyo"
+                        name="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com" name="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Su Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Asusnto"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2023 Julio Cesar Michelin Salomon</p>
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+    </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="archivo.js"></script>
+</body>
+
+</html>
